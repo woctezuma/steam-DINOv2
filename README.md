@@ -1,4 +1,4 @@
-# Steam DINOv2: match Steam Banners with Meta AI's DINOv2
+# Steam DINOv2: match banners with Meta AI's DINOv2
 
 This repository contains Python code to retrieve Steam games with similar store banners, using [Meta AI's DINOv2][fb-dinov2-demo].
 
