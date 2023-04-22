@@ -6,6 +6,28 @@ Image similarity is assessed by the cosine similarity between image features enc
 
 ![Similar vertical banners][wiki-cover]
 
+## Data
+
+Data consists of **vertical** Steam banners (`library_600x900.jpg` at 300x450 resolution).
+
+### Pre-processing
+
+Indeed, DINOv2 follows torchvision's [pre-processing pipeline][dinov2-pre-process] for classification:
+- resize to 256 resolution,
+- center-crop at 224 resolution,
+- normalize intensity.
+
+```python
+transforms_list = [
+    transforms.Resize(resize_size, interpolation=interpolation),
+    transforms.CenterCrop(crop_size),
+    MaybeToTensor(),
+    make_normalize_transform(mean=mean, std=std),
+]
+```
+
+Therefore, downloaded images can be resized to 256x256 resolution before being store to disk.
+
 ## References
 
 -   Facebook's DINO:
@@ -21,6 +43,8 @@ Image similarity is assessed by the cosine similarity between image features enc
 <!-- Definitions -->
 
 [wiki-cover]: <https://github.com/woctezuma/steam-DINOv2/wiki/img/illustration.jpg>
+
+[dinov2-pre-process]: <https://github.com/facebookresearch/dinov2/blob/f8969297dbe53373b4041bf47d997a8dcc8d2077/dinov2/data/transforms.py#L86-L91>
 
 [fb-dino-blog]: <https://ai.facebook.com/blog/dino-paws-computer-vision-with-self-supervised-transformers-and-10x-more-efficient-training>
 [fb-dino-code]: <https://github.com/facebookresearch/dino>
