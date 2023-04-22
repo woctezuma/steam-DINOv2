@@ -12,7 +12,7 @@ Data consists of **vertical** Steam banners (`library_600x900.jpg` at 300x450 re
 
 ### Pre-processing
 
-Indeed, DINOv2 follows torchvision's [pre-processing pipeline][dinov2-pre-process] for classification:
+DINOv2 follows torchvision's [pre-processing pipeline][dinov2-pre-process] for classification:
 - resize to 256 resolution,
 - center-crop at 224 resolution,
 - normalize intensity.
@@ -26,7 +26,7 @@ transforms_list = [
 ]
 ```
 
-Therefore, downloaded images can be resized to 256x256 resolution before being store to disk.
+Therefore, downloaded images can be resized to 256x256 resolution before being stored to disk.
 
 ## References
 
