@@ -13,8 +13,8 @@ Data consists of **vertical** Steam banners (`library_600x900.jpg` at 300x450 re
 ### Pre-processing
 
 DINOv2 follows torchvision's [pre-processing pipeline][dinov2-pre-process] for classification:
-- resize to 256 resolution,
-- center-crop at 224 resolution,
+- [resize][resize] to 256 resolution, i.e. the **smallest** edge of the image will match this number,
+- [center-crop][centercrop] at 224 resolution, i.e. a **square** crop is made,
 - normalize intensity.
 
 ```python
@@ -54,5 +54,8 @@ Therefore, downloaded images can be resized to 256x256 resolution before being s
 [fb-dinov2-blog]: <https://ai.facebook.com/blog/dino-v2-computer-vision-self-supervised-learning/>
 [fb-dinov2-code]: <https://github.com/facebookresearch/dinov2>
 [fb-dinov2-paper]: <https://arxiv.org/abs/2304.07193>
+
+[resize]: <https://pytorch.org/vision/main/generated/torchvision.transforms.Resize.html>
+[centercrop]: <https://pytorch.org/vision/main/generated/torchvision.transforms.CenterCrop.html>
 
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
