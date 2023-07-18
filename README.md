@@ -26,7 +26,7 @@ transforms_list = [
 ]
 ```
 
-Therefore, downloaded images can be resized to 256x256 resolution before being stored to disk.
+Therefore, downloaded images can be resized to 256x384 resolution before being stored to disk.
 
 ## References
 
