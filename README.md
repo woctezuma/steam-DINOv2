@@ -31,6 +31,13 @@ Therefore, downloaded images can be resized to 256x384 resolution before being s
 As discussed in [this Github issue][dinov2-pre-process-issue], the crop can be made less agressive by resizing to 224 instead of 256 resolution.
 In this case, downloaded images can be resized to 224x336 resolution before being stored to disk.
 
+### Snapshot
+
+A snapshot of image data was downloaded **on July 20, 2023** and stored as [a Github release][input-data-github-release].
+
+If you wish to re-create this data snapshot, run [`download_steam_images.ipynb`][input-data-colab-notebook].
+[![Open In Colab][colab-badge]][input-data-colab-notebook]
+
 ## References
 
 -   Facebook's DINO:
@@ -62,4 +69,6 @@ In this case, downloaded images can be resized to 224x336 resolution before bein
 [centercrop]: <https://pytorch.org/vision/main/generated/torchvision.transforms.CenterCrop.html>
 [dinov2-pre-process-issue]: <https://github.com/facebookresearch/dinov2/issues/86#issuecomment-1537198785>
 
+[input-data-github-release]: <https://github.com/woctezuma/steam-DINOv2/releases/tag/input>
+[input-data-colab-notebook]: <https://colab.research.google.com/github/woctezuma/steam-DINOv2/blob/main/download_steam_images.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
