@@ -28,7 +28,7 @@ transforms_list = [
 
 Therefore, downloaded images can be resized to 256x384 resolution before being stored to disk.
 
-As discussed in [this Github issue][dinov2-pre-process-issue], the crop can be made less agressive by resizing to 224 instead of 256 resolution.
+As discussed in [this Github issue][dinov2-pre-process-issue], the crop of DINOv2 can be made less agressive by resizing to 224 instead of 256 resolution.
 In this case, downloaded images can be resized to 224x336 resolution before being stored to disk.
 
 ### Snapshot
