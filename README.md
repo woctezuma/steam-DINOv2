@@ -49,6 +49,7 @@ If you wish to re-create this data snapshot, run [`download_steam_images.ipynb`]
     - [Official blog post][fb-dinov2-blog]
     - [Official Github repository][fb-dinov2-code]
     - [Oquab, Maxime, et al. *DINOv2: Learning Robust Visual Features without Supervision*. arXiv 2023.][fb-dinov2-paper] 
+-   A [feature extractor][feature-extractor] for Github repositories which includes a `hubconf.py` file.
 
 <!-- Definitions -->
 
@@ -68,6 +69,8 @@ If you wish to re-create this data snapshot, run [`download_steam_images.ipynb`]
 [resize]: <https://pytorch.org/vision/main/generated/torchvision.transforms.Resize.html>
 [centercrop]: <https://pytorch.org/vision/main/generated/torchvision.transforms.CenterCrop.html>
 [dinov2-pre-process-issue]: <https://github.com/facebookresearch/dinov2/issues/86#issuecomment-1537198785>
+
+[feature-extractor]: <https://github.com/woctezuma/feature-extractor>
 
 [input-data-github-release]: <https://github.com/woctezuma/steam-DINOv2/releases/tag/input>
 [input-data-colab-notebook]: <https://colab.research.google.com/github/woctezuma/steam-DINOv2/blob/main/download_steam_images.ipynb>
