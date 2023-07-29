@@ -49,7 +49,7 @@ If you wish to re-create this data snapshot, run [`download_steam_images.ipynb`]
     - [Official blog post][fb-dinov2-blog]
     - [Official Github repository][fb-dinov2-code]
     - [Oquab, Maxime, et al. *DINOv2: Learning Robust Visual Features without Supervision*. arXiv 2023.][fb-dinov2-paper] 
--   A [feature extractor][feature-extractor] for Github repositories which includes a `hubconf.py` file.
+-   A [feature extractor][feature-extractor] for Github repositories which include a `hubconf.py` file.
 
 <!-- Definitions -->
 
