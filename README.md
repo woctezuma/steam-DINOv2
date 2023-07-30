@@ -41,6 +41,8 @@ If you wish to re-create this data snapshot, run [`download_steam_images.ipynb`]
 ## References
 
 -   A [feature extractor][feature-extractor] for Github repositories which include a `hubconf.py` file.
+-   A [feature matcher][feature-matcher] based on the `faiss` library.
+-   [`match-steam-banners`][github-match-steam-banners]: retrieve games with similar store banners.
 -   Facebook's DINO:
     - [Official blog post][fb-dino-blog]
     - [Official Github repository][fb-dino-code]
@@ -71,6 +73,8 @@ If you wish to re-create this data snapshot, run [`download_steam_images.ipynb`]
 [dinov2-pre-process-issue]: <https://github.com/facebookresearch/dinov2/issues/86#issuecomment-1537198785>
 
 [feature-extractor]: <https://github.com/woctezuma/feature-extractor>
+[feature-matcher]: <https://github.com/woctezuma/feature-matcher>
+[github-match-steam-banners]: <https://github.com/woctezuma/match-steam-banners>
 
 [input-data-github-release]: <https://github.com/woctezuma/steam-DINOv2/releases/tag/input>
 [input-data-colab-notebook]: <https://colab.research.google.com/github/woctezuma/steam-DINOv2/blob/main/download_steam_images.ipynb>
