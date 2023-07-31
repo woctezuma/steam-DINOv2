@@ -38,6 +38,11 @@ A snapshot of image data was downloaded **on July 20, 2023** and stored as [a Gi
 If you wish to re-create this data snapshot, run [`download_steam_images.ipynb`][input-data-colab-notebook].
 [![Open In Colab][colab-badge]][input-data-colab-notebook]
 
+## Usage
+
+Run [`match_steam_images.ipynb`][match-colab-notebook].
+[![Open In Colab][colab-badge]][match-colab-notebook]
+
 ## References
 
 -   A [feature extractor][feature-extractor] for Github repositories which include a `hubconf.py` file.
@@ -78,4 +83,5 @@ If you wish to re-create this data snapshot, run [`download_steam_images.ipynb`]
 
 [input-data-github-release]: <https://github.com/woctezuma/steam-DINOv2/releases/tag/input>
 [input-data-colab-notebook]: <https://colab.research.google.com/github/woctezuma/steam-DINOv2/blob/main/download_steam_images.ipynb>
+[match-colab-notebook]: <https://colab.research.google.com/github/woctezuma/steam-DINOv2/blob/main/match_steam_images.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
