@@ -9,6 +9,12 @@ FILTERED_INDEX_FNAME = "filtered_indices.json"
 FILTERED_APP_LIST_FNAME = 'filtered_apps.json'
 
 
+def load_data(fname):
+    with Path(fname).open() as f:
+        data = json.load(f)
+    return data
+
+
 def save_app_list(app_ids, fname=APP_LIST_FNAME):
     with Path(fname).open('w') as f:
         json.dump(app_ids, f)
