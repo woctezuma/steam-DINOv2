@@ -55,10 +55,12 @@ Run [`match_steam_images.ipynb`][match-colab-notebook].
 
 ## Results
 
-For each game in the top 100 most played games in the past 2 weeks, find the 10 most similar games with:
+For each game in the top 100 most played games in the past 2 weeks, the 10 most similar games are retrieved with:
 - [ViT-S/14 distilled][wiki-results-ViTS],
 - [ViT-B/14 distilled][wiki-results-ViTB],
 - [ViT-L/14 distilled][wiki-results-ViTL].
+
+AppIDs for all these apps can be found in JSON files in [`data/similar_to_top_100/`](data/similar_to_top_100/).
 
 > **Note**
 > The linked pages contain a lot of images and might be slow to load depending on your Internet bandwidth.
