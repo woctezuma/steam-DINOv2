@@ -1,0 +1,6 @@
+cleanvision
+faiss-gpu
+img2dataset
+mediapy
+steamspypi
+xformers
