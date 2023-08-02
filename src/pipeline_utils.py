@@ -57,7 +57,7 @@ def get_matches(
             [faiss_indices],
             base_apps,
             base_indices,
-        )[0]
+        )
         if verbose:
             print(
                 f'[{app_id}] Looking up pre-computed features at position {file_index}.',
