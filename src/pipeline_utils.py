@@ -12,11 +12,17 @@ def find_similar_app_ids(
     base_apps,
     base_indices,
     num_neighbors=10,
+    verbose=False,
 ):
     query_vector = get_features(query_app_id, preprocess, model)
     scores, indices = search_faiss_index(index, query_vector, num_neighbors)
 
-    return convert_faiss_indices_to_app_ids(indices, base_apps, base_indices)
+    similar_app_ids = convert_faiss_indices_to_app_ids(indices, base_apps, base_indices)
+
+    if verbose:
+        print(f"[{query_app_id}] -> {similar_app_ids}")
+
+    return similar_app_ids
 
 
 def get_matches(
