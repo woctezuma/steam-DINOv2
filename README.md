@@ -48,6 +48,11 @@ If you wish to filter the image dataset, identify issues with [`find_dataset_iss
 Run [`match_steam_images.ipynb`][match-colab-notebook].
 [![Open In Colab][colab-badge]][match-colab-notebook]
 
+> **Note**
+> For the same appID, there can exist some differences between matches computed on the fly and pre-computed matches, because matches are obtained based on features extracted from images resized with different interpolation algorithms:
+> - for on-the-fly matching, images are resized with [`transforms.InterpolationMode.BICUBIC`][dinov2-bicubic-interpolation],
+> - for pre-computed matches, images were resized by [`img2dataset`][img2dataset-downscale-interpolation] with [`cv2.INTER_AREA`][opencv-interpolation-flags], as suggested [in the doc][opencv-resize] of OpenCV for downscale interpolation.
+
 ## References
 
 -   A [feature extractor][feature-extractor] for Github repositories which include a `hubconf.py` file.
@@ -85,6 +90,11 @@ Run [`match_steam_images.ipynb`][match-colab-notebook].
 [feature-extractor]: <https://github.com/woctezuma/feature-extractor>
 [feature-matcher]: <https://github.com/woctezuma/feature-matcher>
 [github-match-steam-banners]: <https://github.com/woctezuma/match-steam-banners>
+
+[dinov2-bicubic-interpolation]: <https://github.com/facebookresearch/dinov2/blob/c3c2683a13cde94d4d99f523cf4170384b00c34c/dinov2/data/transforms.py#L81>
+[opencv-interpolation-flags]: <https://docs.opencv.org/4.8.0/da/d54/group__imgproc__transform.html#ga5bb5a1fea74ea38e1a5445ca803ff121>
+[img2dataset-downscale-interpolation]: <https://github.com/rom1504/img2dataset/blob/f0188aedb897f94eb0d39ccefba641174244b927/img2dataset/resizer.py#L88>
+[opencv-resize]: <https://docs.opencv.org/4.8.0/da/d54/group__imgproc__transform.html#ga47a974309e9102f5f08231edc7e7529d>
 
 [input-data-github-release]: <https://github.com/woctezuma/steam-DINOv2/releases/tag/input>
 [input-data-colab-notebook]: <https://colab.research.google.com/github/woctezuma/steam-DINOv2/blob/main/download_steam_images.ipynb>
