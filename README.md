@@ -89,8 +89,6 @@ Paladins in anime style:
 
 ![Paladins](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/paladins.jpg)
 
-![](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/.jpg)
-
 #### Same character
 
 Armed persons with helmets:
