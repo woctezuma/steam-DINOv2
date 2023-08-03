@@ -185,6 +185,82 @@ War vehicles:
 
 ![Warthunder](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/warthunder.jpg)
 
+### Comparison of ViT-S, ViT-B and ViT-L
+
+Each model performs reasonably well in terms of image retrieval.
+
+#### ViT-S
+
+The following results are obtained with ViT-S.
+
+Cars in *Rocket League*:
+
+![Rocket League](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/rocket_league.jpg)
+
+Cars in *Wallpaper Engine*:
+
+![Wallpaper Engine](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/wallpaper_engine.jpg)
+
+Dinosaurs:
+
+![Ark](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/ark.jpg)
+
+Farms:
+
+![Stardew Valley](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/stardew_valley.jpg)
+
+Persons standing in a forest:
+
+![Stardew Valley](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/valheim.jpg)
+
+Robots:
+
+![Robocraft](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/robocraft.jpg)
+
+Sailing:
+
+![Raft](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/raft.jpg)
+
+Tanks:
+
+![War Thunder](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/war_thunder.jpg)
+
+Interestingly, the results for *The Binding of Isaac* may be better than with ViT-L.
+
+![Binding of Isaac](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/isaac.jpg)
+
+The first match find similarity between in Wolf in *Sekiro* and Mitsurugi in *Soul Calibur*.
+
+![Sekiro](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/sekiro.jpg)
+
+Most matches for *Naraka* include a sword-like weapon with a blue glow:
+
+![Naraka](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/naraka.jpg)
+
+#### ViT-B
+
+The following results are obtained with ViT-B.
+
+Bows:
+
+![Tomb Raider](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-B/tomb_raider.jpg)
+
+Cartoon characters with a white mask:
+
+![Hollow Knight](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-B/hollow_knight.jpg)
+
+Colorful:
+
+![Fall Guys](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-B/fall_guys.jpg)
+
+Dinosaurs:
+
+![Ark](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-B/ark.jpg)
+
+Interestingly, the first matches for *Monster Hunter* are in the same franchise.
+
+![Monster Hunter](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-B/monster_hunter.jpg)
+
 ## References
 
 -   A [feature extractor][feature-extractor] for Github repositories which include a `hubconf.py` file.
