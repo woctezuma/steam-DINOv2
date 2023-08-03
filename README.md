@@ -229,7 +229,7 @@ Interestingly, the results for *The Binding of Isaac* may be better than with Vi
 
 ![Binding of Isaac](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/isaac.jpg)
 
-The first match find similarity between in Wolf in *Sekiro* and Mitsurugi in *Soul Calibur*.
+The first match for *Sekiro* reveals a similarity between in Wolf in *Sekiro* and Mitsurugi in *Soul Calibur*.
 
 ![Sekiro](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-S/sekiro.jpg)
 
@@ -257,7 +257,7 @@ Dinosaurs:
 
 ![Ark](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-B/ark.jpg)
 
-Interestingly, the first matches for *Monster Hunter* are in the same franchise.
+Interestingly, the first match for *Monster Hunter* is correctly in the same franchise.
 
 ![Monster Hunter](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-B/monster_hunter.jpg)
 
