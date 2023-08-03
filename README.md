@@ -65,6 +65,126 @@ AppIDs for all these apps can be found in JSON files in [`data/similar_to_top_10
 > **Note**
 > The linked pages contain a lot of images and might be slow to load depending on your Internet bandwidth.
 
+### Examples obtained with ViT-L
+
+#### Same visual theme
+
+Basket ball:
+
+![NBA](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/nba.jpg)
+
+Cartoony monsters:
+
+![Binding of Isaac](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/isaac.jpg)
+
+Colorful:
+
+![Fall Guys](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/fall_guys.jpg)
+
+Far West:
+
+![Red Dead Redemption](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/red_dead.jpg)
+
+Paladins in anime style:
+
+![Paladins](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/paladins.jpg)
+
+![](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/.jpg)
+
+#### Same character
+
+Armed persons with helmets:
+
+![Counter-Strike Global Offensive](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/cs_go.jpg)
+
+Dinosaurs:
+
+![Dinosaurs](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/ark.jpg)
+
+Knights:
+
+![Terraria](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/terraria.jpg)
+
+Robots:
+
+![Robocraft](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/robocraft.jpg)
+
+#### Same item
+
+Bows:
+
+![Bow](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/tomb_raider.jpg)
+
+Cars:
+
+![Rocket League](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/rocket_league.jpg)
+
+Castles:
+
+![Hogwarts](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/hogwarts.jpg)
+
+Farms:
+
+![Stardew Valley](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/stardew_valley.jpg)
+
+Tanks:
+
+![World of Tanks](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/world_of_tanks.jpg)
+
+Tools:
+
+![Raft](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/raft.jpg)
+
+#### Same franchise
+
+Borderlands:
+
+![Borderlands](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/borderlands.jpg)
+
+Cities (with skyscrapers):
+
+![Skyscrapers](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/cities.jpg)
+
+Hollow Knight:
+
+![Hollow Knight](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/hollow_knight.jpg)
+
+Left 4 Dead (with hands):
+
+![Left 4 Dead](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/l4d.jpg)
+
+Monster Hunter (with dragons):
+
+![Monster Hunter](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/monster_hunter.jpg)
+
+Mount & Blade (with horses):
+
+![Mount & Blade](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/mount_blade.jpg)
+
+Naraka:
+
+![Naraka](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/naraka.jpg)
+
+Payday:
+
+![Payday](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/payday.jpg)
+
+The Witcher (with Geralt of Rivia):
+
+![The Witcher 3](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/witcher.jpg)
+
+Truck simulators:
+
+![EuroTruck](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/eurotruck.jpg)
+
+War planes:
+
+![Warplanes](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/warplanes.jpg)
+
+War vehicles:
+
+![Warthunder](https://github.com/woctezuma/steam-DINOv2/wiki/img/ViT-L/warthunder.jpg)
+
 ## References
 
 -   A [feature extractor][feature-extractor] for Github repositories which include a `hubconf.py` file.
