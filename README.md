@@ -48,7 +48,7 @@ If you wish to filter the image dataset, identify issues with [`find_dataset_iss
 Run [`match_steam_images.ipynb`][match-colab-notebook].
 [![Open In Colab][colab-badge]][match-colab-notebook]
 
-> **Note**
+> [!Note]
 > For the same appID, there can exist some differences between matches computed on the fly and pre-computed matches, because matches are obtained based on features extracted from images resized with different interpolation algorithms:
 > - for on-the-fly matching, images are resized with [`transforms.InterpolationMode.BICUBIC`][dinov2-bicubic-interpolation],
 > - for pre-computed matches, images were resized by [`img2dataset`][img2dataset-downscale-interpolation] with [`cv2.INTER_AREA`][opencv-interpolation-flags], as suggested [in the doc][opencv-resize] of OpenCV for downscale interpolation.
@@ -62,7 +62,7 @@ For each game in the top 100 most played games in the past 2 weeks, the 10 most 
 
 AppIDs for all these apps can be found in JSON files in [`data/similar_to_top_100/`](data/similar_to_top_100/).
 
-> **Note**
+> [!Note]
 > The linked pages contain a lot of images and might be slow to load depending on your Internet bandwidth.
 
 ### Examples obtained with ViT-L
